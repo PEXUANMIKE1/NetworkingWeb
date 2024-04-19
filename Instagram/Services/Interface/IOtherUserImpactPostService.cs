@@ -15,5 +15,6 @@ namespace Instagram.Services.Interface
         ResponseObject<ResponsePost> DeleteComent(int idcoment);
         ResponseObject<ResponseReportPost> ReportPost(RequestReport request);
         ResponseObject<IEnumerable<ResponseReportPost>> GetAllReport();
+
     }
 }
